@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #5A3E36; /* Darker brown for the nav background */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black; /* Indigo for the text color */
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: black; /* Lighter indigo on hover */
+    border-bottom: 2px solid black;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+    background-color: #D2B48C;
+    color: black;
+}
+
+.home-section, .about-section, .skills-section, .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #D2B48C; /* Lighter tan background */
+    color: black; /* Indigo text */
+    border: 1px solid #8B4513; /* Adding a subtle border */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow to sections */
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+    color: black; /* Indigo headings */
+}
+
+p {
+    margin: 20px 0;
+    max-width: 800px;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Button Styling */
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: black; /* Lighter indigo on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+}
