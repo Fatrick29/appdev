@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <section className="home-section">
             <h1>Welcome to My Profile</h1>
-            <p>I'm Patrick Ryan A. Zapanta Scurrently enroll in Pamantasan ng Cabuyao!.</p>
+            <p>I'm Patrick Ryan A. Zapanta currently enroll in Pamantasan ng Cabuyao!.</p>
         </section>
     );
 };
